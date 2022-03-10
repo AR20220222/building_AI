@@ -8,72 +8,44 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Smart glasses with teleprompter-style augmented reality display with a built-in chatbot that understands spoken language and suggests an appropriate response depending on the current environment, history of interaction with a particular person, and own speech patterns and vocabulary
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Ever since hearing about Google Glass in 2013 I’ve been thinking how a wearable smart eyewear device can be used to help people’s lives. Google Glass has not been a huge success due to high cost and limitations of technology back then, but the it is still used on enterprise market. It’s applications are however underwhelming. More contemporary devices like OPPO Air Glass that is announced in 2021 offers display of information in the field of vision, translation between English and Mandarin, “adaptive” teleprompter and some sort of AR assist for walk and bike navigation.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+What if the “smart glasses” could be even smarter with AI functions?
+
+*I think I am not the only person in the world that struggles to remember the names of the people I meet especially during networking events. It would be handy if I could scan the details of a business card by looking at it and associating them with the face of the person. 
+
+*Another useful application could be a smart teleprompter/chatbot hybrid that assists in real-time conversations. This could be especially useful in situations where interactions roughly follow a script, like networking and sales meetings.
+
+*This product can benefit people with dementia
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The user base for such a product should be very wide in order to make the product cheap enough for mass adoption. Also, wide use of the product should also help to instill a public acceptance of someone with a wearable device with the ability to record every interaction.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
+Recognition of people, keeping track of what has been said by this person, and suggesting responses would be the features very useful for dementia patients
 
    # write your solution here
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The task of processing a natural language is very demanding and most likely will involve recurrent neural networks and transformers
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Technical challenges of real-time NLP
+Public acceptance of devices that record environment
 
 ## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+![image](https://user-images.githubusercontent.com/101279135/157660290-98dfcb93-52c1-4c67-bb82-bf07b2c9cdf5.png)
